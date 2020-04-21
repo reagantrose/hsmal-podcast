@@ -6,13 +6,13 @@ const spotsArray = [
   {
     width: "50px",
     height: "50px",
-    backgroundColor: `rgba(250, 249, 246, .5)`,
+    backgroundColor: `rgba(58, 58, 58, .5)`,
     borderRadius: "50%",
   },
   {
     width: "20px",
     height: "20px",
-    backgroundColor: `rgba(250, 249, 246, .5)`,
+    backgroundColor: `rgba(120, 120, 120, .5)`,
     borderRadius: "50%",
   },
   {
@@ -122,8 +122,8 @@ const HomeBackground = () => {
               y2="100%"
               id="linearGradient-1"
             >
-              <stop stopColor="#F26071" offset="0%"></stop>
-              <stop stopColor="#DF5A63" stopOpacity="0.4" offset="100%"></stop>
+              <stop stopColor="#3a3a3a" offset="0%"></stop>
+              <stop stopColor="#050505" stopOpacity="0.4" offset="100%"></stop>
             </linearGradient>
           </defs>
           <g

@@ -10,16 +10,13 @@ const Header = () => (
         <img className="logo" src={logo} alt="Ladybug Podcast" />
       </Link>
       <nav className="nav">
-        <Link to="episodes" activeStyle={{ borderBottom: "2px solid #F05657" }}>
+        <Link to="episodes" activeStyle={{ borderBottom: "2px solid #3a3a3a" }}>
           Episodes
         </Link>
-        <Link to="books" activeStyle={{ borderBottom: "2px solid #F05657" }}>
-          Book Club
-        </Link>
-        <Link to="about" activeStyle={{ borderBottom: "2px solid #F05657" }}>
+        <Link to="about" activeStyle={{ borderBottom: "2px solid #3a3a3a" }}>
           About Us
         </Link>
-        <Link to="contact" activeStyle={{ borderBottom: "2px solid #F05657" }}>
+        <Link to="contact" activeStyle={{ borderBottom: "2px solid #3a3a3a" }}>
           Contact
         </Link>
       </nav>

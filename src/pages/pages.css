@@ -75,9 +75,9 @@ li {
   border-radius: 20px;
   border: none;
   background: white;
-  box-shadow: 4px 4px #f05657;
+  box-shadow: 4px 4px #3a3a3a;
   cursor: pointer;
-  color: #f05657;
+  color: #3a3a3a;
   transition: all 0.1s ease-out;
   margin-top: 24px;
   text-decoration: none;
@@ -89,7 +89,7 @@ li {
 }
 
 .button-border {
-  border: 2px solid #f05657;
+  border: 2px solid #3a3a3a;
 }
 
 .page-flex-horizontal {
