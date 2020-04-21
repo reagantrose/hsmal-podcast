@@ -6,9 +6,9 @@ const publicUrl = process.env.NODE_ENV === "production" ? URL : ""
 
 module.exports = {
   siteMetadata: {
-    title: `Ladybug Podcast`,
-    description: `Emma Bostian, Kelly Vaughn, and Ali Spittel talk career and code.`,
-    author: `@emmabostian`,
+    title: `How Should a Man Live? Podcast`,
+    description: `Reagan Rose & Miska Wilhelmsson`,
+    author: `@reagantrose`,
     publicUrl,
   },
   plugins: [
