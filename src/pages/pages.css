@@ -52,8 +52,8 @@ p a:hover,
 p a:focus,
 nav a:hover,
 nav a:focus {
-  color: #f05657;
-  border-bottom: 2px solid #f05657;
+  color: #275f89;
+  border-bottom: 2px solid #275f89;
 }
 
 ul {
@@ -72,7 +72,6 @@ li {
   padding: 8px 28px;
   font-family: "Montserrat";
   font-size: 1em;
-  border-radius: 20px;
   border: none;
   background: white;
   box-shadow: 4px 4px #3a3a3a;
@@ -151,8 +150,8 @@ li {
 
 .about-content-wrapper a:hover,
 .about-content-wrapper a:focus {
-  border-bottom: 2px solid #f05657;
-  color: #f05657;
+  border-bottom: 2px solid #275f89;
+  color: #275f89;
 }
 
 .about-image {
