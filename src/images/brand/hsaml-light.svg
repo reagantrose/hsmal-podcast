@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1572" height="83" viewBox="0 0 1572 83">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 109px;
+        filter: url(#filter);
+        text-anchor: middle;
+        font-family: "LIBRARY 3 AM";
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" x="0" y="-1" width="1572" height="85" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="how_should_a_man_live_" data-name="how should a man live?" class="cls-1" x="784.719" y="82.492"><tspan x="784.719">how should a man live?</tspan></text>
+</svg>

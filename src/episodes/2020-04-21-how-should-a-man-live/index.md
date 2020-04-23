@@ -1,10 +1,10 @@
 ---
-title: "How Should a Man Live?"
+title: "The Beginning (and the end)"
 formattedDate: "April 21, 2020"
 date: "2020-04-21"
 audio: "https://episodes.castos.com/redeemingproductivity/RPS-36-Review-of-Ploductivity-by-Doug-Wilson.mp3"
 path: "/how-should-a-man-live"
-description: "So, how exactly should a man live anyway?"
+description: "An introduction to the podcast and your hosts, Reagan Rose and Miska Wilhelmsson"
 episode: "Episode 1"
 length: "00:29:15"
 ---
