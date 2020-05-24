@@ -1,12 +1,12 @@
 ---
-title: "The Beginning (and the end)"
+title: "Who Are We and How Did We Get Here?"
 formattedDate: "April 21, 2020"
 date: "2020-04-21"
-audio: "https://episodes.castos.com/redeemingproductivity/RPS-36-Review-of-Ploductivity-by-Doug-Wilson.mp3"
+audio: "https://episodes.castos.com/redeemingproductivity/Ep.-1-Who-Are-We-and-How-Did-We-Get-Here-.mp3"
 path: "/how-should-a-man-live"
 description: "An introduction to the podcast and your hosts, Reagan Rose and Miska Wilhelmsson"
 episode: "Episode 1"
-length: "00:29:15"
+length: "00:34:48"
 ---
 
 # Show notes
