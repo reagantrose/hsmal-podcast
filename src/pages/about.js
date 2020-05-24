@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import PageHeader from "../components/PageHeader"
+import Intro from "../components/Intro"
 import TeamMemberBlock from "../components/TeamMemberBlock"
 import Footer from "../components/Footer"
 import { kellyBio, emmaBio, aliBio } from "../data/bios"
@@ -9,10 +10,10 @@ import "./pages.css"
 
 const AboutPage = ({ data }) => (
   <div className="page">
-    <SEO title="Ladybug Podcast" />
+    <SEO title="How Should a Man Live?" />
     <PageHeader />
-
     <main>
+      <Intro />
       <div className="page-banner">
         <h1>About Us</h1>
       </div>

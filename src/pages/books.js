@@ -12,7 +12,7 @@ const LINK_IT_DOESNT_HAVE_TO_BE_CRAZY_AT_WORK = 'https://www.goodreads.com/en/bo
 
 const BooksPage = ({ data }) => (
   <div className="page">
-    <SEO title="Ladybug Podcast" />
+    <SEO title="How Should a Man Live?" />
     <PageHeader />
 
     <main style={{ marginBottom: "40px" }}>

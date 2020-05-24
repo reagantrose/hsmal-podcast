@@ -6,7 +6,7 @@ import "./pages.css"
 
 const ContactPage = () => (
   <div className="page">
-    <SEO title="Ladybug Podcast" />
+    <SEO title="How Should a Man Live?" />
     <PageHeader />
 
     <main>

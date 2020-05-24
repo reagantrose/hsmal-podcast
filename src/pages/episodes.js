@@ -8,7 +8,7 @@ import "./pages.css"
 
 const EpisodesPage = ({ data }) => (
   <div className="page">
-    <SEO title="Ladybug Podcast" />
+    <SEO title="How Should a Man Live?" />
     <PageHeader />
 
     <main>

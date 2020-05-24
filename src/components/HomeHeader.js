@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Player from "./Player"
-import HomeBackground from "./HomeBackground"
 import lightLogo from "../images/brand/hsaml-light.svg"
 import "./header.css"
 
@@ -17,7 +16,6 @@ const Header = ({ latestEpisode }) => {
   } = latestEpisode.node.frontmatter
   return (
     <header className="header header-full">
-      <HomeBackground />
       <div className="header-content-wrapper">
         <Link className="home-logo" to="/">
           <img className="logo" src={lightLogo} alt="Ladybug Podcast" height="27" />

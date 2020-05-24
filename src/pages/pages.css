@@ -153,6 +153,11 @@ li {
   border-bottom: 2px solid #275f89;
   color: #275f89;
 }
+.intro-image {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
 
 .about-image {
   width: 200px;
