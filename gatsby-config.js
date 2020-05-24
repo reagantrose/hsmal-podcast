@@ -1,6 +1,6 @@
 const path = require(`path`)
 
-const URL = "https://www.ladybug.dev"
+const URL = "https://www.howshouldamanlive.com"
 
 const publicUrl = process.env.NODE_ENV === "production" ? URL : ""
 
@@ -71,7 +71,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/brand/ladybug@2x.png`, // This path is relative to the root of the site.
+        icon: `src/images/brand/hsaml@2x.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sharp`,

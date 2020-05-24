@@ -17,7 +17,7 @@
             <g id="play-button" transform="translate(132.000000, 720.000000)">
                 <g id="Oval">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use stroke="#FFFFFF" stroke-width="1" fill="#EF5757" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="1" fill="#c4996c" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
                 <path d="M21.875,12.5352184 L30.478869,26.875 L13.271131,26.875 L21.875,12.5352184 Z" id="Triangle" stroke="#FFFFFF" stroke-width="1.25" fill="#FFFFFF" stroke-linejoin="round" transform="translate(21.875000, 20.000000) rotate(90.000000) translate(-21.875000, -20.000000) "></path>
             </g>

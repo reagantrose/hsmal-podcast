@@ -45,6 +45,10 @@
   border-bottom: 2px solid #fff;
 }
 
+.header-full .home-logo {
+  padding: 10px;
+}
+
 .header-full .home-logo,
 .header-full .episode-header-button {
   border-bottom: 0;

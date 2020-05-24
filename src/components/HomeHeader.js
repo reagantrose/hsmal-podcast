@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Player from "./Player"
 import lightLogo from "../images/brand/hsaml-light.svg"
+import PodcastArt from "../images/brand/hsaml-artwork.png"
 import "./header.css"
 
 const Header = ({ latestEpisode }) => {
@@ -18,7 +19,7 @@ const Header = ({ latestEpisode }) => {
     <header className="header header-full">
       <div className="header-content-wrapper">
         <Link className="home-logo" to="/">
-          <img className="logo" src={lightLogo} alt="Ladybug Podcast" height="27" />
+          <img className="logo" src={PodcastArt} alt="How Should a Man Live Logo" height="200" />
         </Link>
         <nav className="nav">
           <Link to="episodes">Episodes</Link>
