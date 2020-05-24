@@ -1,5 +1,5 @@
-export const kellyBio = {
-  name: "Kelly Vaughn",
+export const reaganBio = {
+  name: "Reagan Rose",
   title: "Frontend Developer",
   location: "Atlanta, GA",
   bio: [
@@ -29,13 +29,14 @@ export const kellyBio = {
   ],
 }
 
-export const emmaBio = {
-  name: "Emma Bostian",
+export const miskaBio = {
+  name: "Miska Wilhelmsson",
   title: "Software Engineer",
-  location: "Karlsruhe, Germany",
+  location: "Tampere, Finland",
   bio: [
-    `Emma is a Software Engineer at LogMeIn in Karlsruhe, Germany. Born and raised in Upstate New York, Emma graduated from Siena College in Albany with a B.S. in Computer Science and moved to Austin, Texas for three years where she worked as an engineer at IBM.`,
-    `Currently Emma is focused on building a design system at LogMeIn and has a multitude of side projects. She founded an open source project, Coding Coach in September of 2018, is a Frontend Masters instructor, Egghead.io instructor, teaches at Lynda.com, and much much more!`,
+    `Miska Wilhelmsson is the pastor of Grace Baptist Church Tampere, Finland, where he has been serving in this role since May 2018. Having grown up in Finland, he became a Christian when he was 18 years old (2007). A few years after becoming a believer it became clearer that God was calling Miska to serve in gospel ministry in the local church. This led him eventually to attend The Masters Seminary in California where he completed his Master of Divinity (2014 to 2017). It was during this time that Miska and Reagan became friends, as they both studied and worked together at The Master’s Seminary.`,
+    `Miska is married to Alison (who is British) and they have three boys Jeremiah Ryle (5), Simeon Kalvin (3), Zakarias Tyndale (1) and a fourth boy on the way in September 2020. In his spare time Miska enjoys being out in creation, whether it be winter or summer there is always plenty to do in the Finnish forest.`,
+    `You can read more about Miska’s testimony in this article (https://www.evangelical-times.org/18150/from-blasphemer-to-preacher/) published in the British Christian newspaper Evangelical Times."`,
   ],
   links: [
     {

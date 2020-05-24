@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader"
 import Intro from "../components/Intro"
 import TeamMemberBlock from "../components/TeamMemberBlock"
 import Footer from "../components/Footer"
-import { kellyBio, emmaBio, aliBio } from "../data/bios"
+import { miskaBio, reaganBio } from "../data/bios"
 import "./pages.css"
 
 const AboutPage = ({ data }) => (
@@ -24,28 +24,20 @@ const AboutPage = ({ data }) => (
         <h1>About Us</h1>
       </div>
       <TeamMemberBlock
-        name={kellyBio.name}
-        title={kellyBio.title}
-        location={kellyBio.location}
-        bio={kellyBio.bio}
-        image={data.kelly.childImageSharp.fixed}
-        links={kellyBio.links}
-      />
-      <TeamMemberBlock
-        name={emmaBio.name}
-        title={emmaBio.title}
-        location={emmaBio.location}
-        bio={emmaBio.bio}
+        name={reaganBio.name}
+        title={reaganBio.title}
+        location={reaganBio.location}
+        bio={reaganBio.bio}
         image={data.emma.childImageSharp.fixed}
-        links={emmaBio.links}
+        links={reaganBio.links}
       />
       <TeamMemberBlock
-        name={aliBio.name}
-        title={aliBio.title}
-        location={aliBio.location}
-        bio={aliBio.bio}
-        image={data.ali.childImageSharp.fixed}
-        links={aliBio.links}
+        name={miskaBio.name}
+        title={miskaBio.title}
+        location={miskaBio.location}
+        bio={miskaBio.bio}
+        image={data.kelly.childImageSharp.fixed}
+        links={miskaBio.links}
       />
     </main>
     <Footer />
@@ -62,13 +54,6 @@ export const Photos = graphql`
       }
     }
     emma: file(relativePath: { eq: "team/emma.jpg" }) {
-      childImageSharp {
-        fixed(width: 200) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    ali: file(relativePath: { eq: "team/ali.jpg" }) {
       childImageSharp {
         fixed(width: 200) {
           ...GatsbyImageSharpFixed

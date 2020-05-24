@@ -1,6 +1,6 @@
 .episode {
   display: flex;
-  font-family: "Montserrat";
+  font-family: Lato;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -79,13 +79,13 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background: #3c2829;
+  background: #c4996c;
   border-radius: 4px;
 }
 
 progress::-moz-progress-bar {
   /* style rules */
-  background: #3c2829;
+  background: #c4996c;
   border-radius: 4px;
 }
 
@@ -108,6 +108,10 @@ progress::-moz-progress-bar {
   border: none;
   cursor: pointer;
   margin-right: 24px;
+}
+.audio-control img {
+  height: auto;
+  width: 70px;
 }
 
 @media (max-width: 500px) {
