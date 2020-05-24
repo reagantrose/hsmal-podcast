@@ -14,6 +14,12 @@ const AboutPage = ({ data }) => (
     <PageHeader />
     <main>
       <Intro />
+      <p>
+        Who are we? Why are we here? What does it mean to be a man? 
+      </p>
+      <p>
+        This podcast is the joint effort of Reagan Rose and Miska Wilhelmsson.
+      </p>
       <div className="page-banner">
         <h1>About Us</h1>
       </div>

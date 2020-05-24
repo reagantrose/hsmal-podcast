@@ -19,7 +19,7 @@ const Header = ({ latestEpisode }) => {
     <header className="header header-full">
       <div className="header-content-wrapper">
         <Link className="home-logo" to="/">
-          <img className="logo" src={PodcastArt} alt="How Should a Man Live Logo" height="200" />
+          <img className="logo" src={PodcastArt} alt="How Should a Man Live Logo" height="150" />
         </Link>
         <nav className="nav">
           <Link to="episodes">Episodes</Link>
