@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Newsletter from "../components/Newsletter"
 import SEO from "../components/seo"
 import PageHeader from "../components/PageHeader"
 import Intro from "../components/Intro"
@@ -20,6 +21,7 @@ const AboutPage = ({ data }) => (
       <p>
         This podcast is the joint effort of Reagan Rose and Miska Wilhelmsson.
       </p>
+      <Newsletter />
       <div className="page-banner">
         <h1>About the Hosts</h1>
       </div>

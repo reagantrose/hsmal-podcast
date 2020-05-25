@@ -1,0 +1,21 @@
+.newsletter {
+    margin-bottom: 4em;
+}
+.newsletter input[type=email] {
+    padding: 20px;
+    margin-right:3%;
+    width: 50%;
+    font-family: Lato;
+    font-size: 1.3em;
+    border-width: 0;
+    background: #F0F0F0;
+}
+.newsletter input[type=submit] {
+    padding: 20px;
+    width: 32%;
+    font-family: Lato;
+    font-size: 1.3em;
+    border-width: 0;
+    background: #F0F0F0;
+
+}
