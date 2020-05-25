@@ -21,14 +21,14 @@ const AboutPage = ({ data }) => (
         This podcast is the joint effort of Reagan Rose and Miska Wilhelmsson.
       </p>
       <div className="page-banner">
-        <h1>About Us</h1>
+        <h1>About the Hosts</h1>
       </div>
       <TeamMemberBlock
         name={reaganBio.name}
         title={reaganBio.title}
         location={reaganBio.location}
         bio={reaganBio.bio}
-        image={data.emma.childImageSharp.fixed}
+        image={data.reagan.childImageSharp.fixed}
         links={reaganBio.links}
       />
       <TeamMemberBlock
@@ -36,7 +36,7 @@ const AboutPage = ({ data }) => (
         title={miskaBio.title}
         location={miskaBio.location}
         bio={miskaBio.bio}
-        image={data.kelly.childImageSharp.fixed}
+        image={data.miska.childImageSharp.fixed}
         links={miskaBio.links}
       />
     </main>
@@ -46,14 +46,14 @@ const AboutPage = ({ data }) => (
 
 export const Photos = graphql`
   {
-    kelly: file(relativePath: { eq: "team/kelly.jpg" }) {
+    reagan: file(relativePath: { eq: "team/reagan.jpg" }) {
       childImageSharp {
         fixed(width: 200) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    emma: file(relativePath: { eq: "team/emma.jpg" }) {
+    miska: file(relativePath: { eq: "team/miska.jpg" }) {
       childImageSharp {
         fixed(width: 200) {
           ...GatsbyImageSharpFixed

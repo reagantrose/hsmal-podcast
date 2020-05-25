@@ -15,15 +15,9 @@ const Footer = () => {
     <footer className="footer">
       <section className="footer-find-episodes">
         <p>
-          <span role="img" aria-label="Headphones">
-            🎧
-          </span>{" "}
-          Find our episodes where you listen to podcasts{" "}
-          <span role="img" aria-label="Headphones">
-            🎧
-          </span>
+          Find our episodes wherever you listen to podcasts
         </p>
-        <address className="footer-icons">
+        {/* <address className="footer-icons">
           <a
             href="https://twitter.com/LadybugPodcast"
             target="_blank"
@@ -66,7 +60,7 @@ const Footer = () => {
           >
             <img src={rss} alt="RSS Feed" />
           </a>
-        </address>
+        </address> */}
       </section>
       {/* <div className="footer-links">
         <Link to="/contact">Sponsor Us</Link>

@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Montserrat`],
+        fonts: [`Lato`],
       },
     },
     `gatsby-transformer-sharp`,
