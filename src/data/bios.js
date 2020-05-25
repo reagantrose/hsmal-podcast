@@ -31,17 +31,16 @@ export const reaganBio = {
 
 export const miskaBio = {
   name: "Miska Wilhelmsson",
-  title: "Software Engineer",
+  title: "Pastor",
   location: "Tampere, Finland",
   bio: [
     `Miska Wilhelmsson is the pastor of Grace Baptist Church Tampere, Finland, where he has been serving in this role since May 2018. Having grown up in Finland, he became a Christian when he was 18 years old (2007). A few years after becoming a believer it became clearer that God was calling Miska to serve in gospel ministry in the local church. This led him eventually to attend The Masters Seminary in California where he completed his Master of Divinity (2014 to 2017). It was during this time that Miska and Reagan became friends, as they both studied and worked together at The Master’s Seminary.`,
     `Miska is married to Alison (who is British) and they have three boys Jeremiah Ryle (5), Simeon Kalvin (3), Zakarias Tyndale (1) and a fourth boy on the way in September 2020. In his spare time Miska enjoys being out in creation, whether it be winter or summer there is always plenty to do in the Finnish forest.`,
-    `You can read more about Miska’s testimony in this article (https://www.evangelical-times.org/18150/from-blasphemer-to-preacher/) published in the British Christian newspaper Evangelical Times."`,
   ],
   links: [
     {
-      title: "Coding Coach",
-      link: "https://codingcoach.io/",
+      title: "Testimony",
+      link: "https://www.evangelical-times.org/18150/from-blasphemer-to-preacher/",
     },
     {
       title: "Twitter",

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, {} from "react"
 import showIntro from "../images/brand/hsaml-intro.png"
 
 const Intro = () => (
