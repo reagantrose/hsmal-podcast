@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-import twitter from "../images/footer/twitter.svg"
-import google from "../images/footer/google.svg"
-import spotify from "../images/footer/spotify.svg"
-import rss from "../images/footer/rss.svg"
-import itunes from "../images/footer/itunes.svg"
-import podcast from "../images/footer/podcast.svg"
+// import { Link } from "gatsby"
+// import twitter from "../images/footer/twitter.svg"
+// import google from "../images/footer/google.svg"
+// import spotify from "../images/footer/spotify.svg"
+// import rss from "../images/footer/rss.svg"
+// import itunes from "../images/footer/itunes.svg"
+// import podcast from "../images/footer/podcast.svg"
 import "./footer.css"
 
 const Footer = () => {

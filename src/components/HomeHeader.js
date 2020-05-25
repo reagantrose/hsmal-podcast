@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Player from "./Player"
-import lightLogo from "../images/brand/hsaml-light.svg"
 import PodcastArt from "../images/brand/hsaml-artwork.png"
 import "./header.css"
 

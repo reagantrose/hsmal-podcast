@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import playButton from "../images/player/play-button.png"
 import pauseButton from "../images/player/pause-button.png"
