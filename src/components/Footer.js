@@ -68,7 +68,7 @@ const Footer = () => {
           </a>
         </address>
       </section>
-      <div className="footer-links">
+      {/* <div className="footer-links">
         <Link to="/contact">Sponsor Us</Link>
         <a
           href="https://github.com/ladybug-podcast/ladybug-website"
@@ -91,9 +91,9 @@ const Footer = () => {
         >
           Request An Episode
         </a>
-      </div>
+      </div> */}
       <p className="footer-copyright">
-        {`© Ladybug Podcast ${currentYear}. Produced by Kelly Vaughn, Ali Spittel, and Emma Bostian.`}
+        {`© How Should a Man Live? ${currentYear}. Produced by Reagan Rose and Miska Wilhelmsson.`}
       </p>
     </footer>
   )
