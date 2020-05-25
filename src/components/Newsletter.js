@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="newsletter-container">
                 <h1>Subscribe to Our Newsletter</h1>
                 <p>From time to time we will send out updates and links to resources.</p>
                 <div>

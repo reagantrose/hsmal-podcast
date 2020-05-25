@@ -1,3 +1,12 @@
+.newsletter-container {
+    width: 50%;
+    text-align: center;
+}
+.newsletter-container p {
+    text-align: center;
+    width: 100%!important;
+    max-width: 100%;
+}
 .newsletter {
     margin-bottom: 4em;
 }
@@ -12,10 +21,19 @@
 }
 .newsletter input[type=submit] {
     padding: 20px;
+    color: #FFFFFF;
     width: 32%;
     font-family: Lato;
     font-size: 1.3em;
     border-width: 0;
-    background: #F0F0F0;
-
+    background: #c4996c;
+    cursor: pointer;
+}
+.newsletter input[type=submit]:hover {
+    background: #5b4c42;
+}
+@media (max-width: 700px) {
+    .newsletter-container {
+        width: 100%;
+    }
 }
