@@ -14,7 +14,7 @@ const ContactPage = () => (
         <h1>Contact Us</h1>
       </div>
       <h2>We'd love to hear from you.</h2>
-      <form name="contact" className="contact-form" netlify>
+      <form name="contact" className="contact-form" method="POST" data-netlify="true" netlify>
         <label>Name</label>
         <input type="text" name="name" />
         <label>Email</label>
