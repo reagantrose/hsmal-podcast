@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ladybug.dev">
-    <img alt="Ladybug Podcast" src="./src/images/brand/logo.svg" width="320" />
+    <img alt="Ladybug Podcast" src="./src/images/brand/hsaml-artwork.jpg" width="320" />
   </a>
 </p>
 <h1 align="center">
