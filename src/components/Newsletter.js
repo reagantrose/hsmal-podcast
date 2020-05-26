@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
     render() {
         return (
             <div className="newsletter-container">
-                <h1>Subscribe to Our Newsletter</h1>
+                <h2>Subscribe to Our Newsletter</h2>
                 <p>From time to time we will send out updates and links to resources.</p>
                 <div>
                     <form onSubmit={this._handleSubmit} className="newsletter">
@@ -49,8 +49,9 @@ export default class IndexPage extends React.Component {
                             onChange={this._handleChange}
                             placeholder="Email"
                             name="email"
+                            aria-label="enter email"
                         />
-                        <input type="submit" />
+                        <input type="submit" aria-label="Submit" />
                     </form>
                 </div>
             </div>

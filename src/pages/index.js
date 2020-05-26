@@ -5,6 +5,7 @@ import HomeHeader from "../components/HomeHeader"
 import EpisodeBlock from "../components/EpisodeBlock"
 import Footer from "../components/Footer"
 import "./pages.css"
+import Newsletter from "../components/Newsletter"
 
 const IndexPage = ({ data }) => {
   return (
@@ -12,10 +13,11 @@ const IndexPage = ({ data }) => {
       <SEO title="How Should a Man Live?" />
       <HomeHeader latestEpisode={data.allMarkdownRemark.edges[0]} />
       <main className="home-main">
-        <h2>Recent Episodes</h2>
+        {/* <h2>Recent Episodes</h2>
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[1]} />
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
-        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[3]} />
+        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[3]} /> */}
+        <Newsletter />
       </main>
       <Footer />
     </div>
