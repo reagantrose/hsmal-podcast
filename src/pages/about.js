@@ -1,9 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Newsletter from "../components/Newsletter"
 import SEO from "../components/seo"
 import PageHeader from "../components/PageHeader"
-import Intro from "../components/Intro"
 import TeamMemberBlock from "../components/TeamMemberBlock"
 import Footer from "../components/Footer"
 import { miskaBio, reaganBio } from "../data/bios"
@@ -14,14 +12,12 @@ const AboutPage = ({ data }) => (
     <SEO title="How Should a Man Live?" />
     <PageHeader />
     <main>
-      <Intro />
+      <h1>About the Podcast</h1>
       <p>
-        Who are we? Why are we here? What does it mean to be a man? 
-      </p>
-      <p>
+        Who are we? Why are we here? What does it mean to be a man? <br /> 
         This podcast is the joint effort of Reagan Rose and Miska Wilhelmsson.
       </p>
-      <Newsletter />
+      <br />
       <div className="page-banner">
         <h1>About the Hosts</h1>
       </div>
