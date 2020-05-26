@@ -185,21 +185,42 @@ li {
   text-transform: uppercase;
 }
 
-.bookshelf {
-  display: flex;
-  justify-content: space-around;
-  width: 100vw;
-}
-
-.book {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .header-full .logo-link:hover,
 .header-full .logo-link:focus {
   border-bottom: 0;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  padding: 20px 0 5px;
+  display: block;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 20px;
+  margin-right:3%;
+  width: 100%;
+  font-family: Lato;
+  font-size: 1.3em;
+  border-width: 0;
+  background: #F0F0F0;
+}
+
+.contact-form button {
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 150px;
+  margin: 20px 0;
+  font-family: Lato;
+  font-size: 1.3em;
+  border-width: 0;
+  background: #c4996c;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
