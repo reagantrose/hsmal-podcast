@@ -8,3 +8,5 @@
 </h1>
 
 Hosted by Reagan Rose and Miska Wilhelmsson.
+
+This site is based on the Ladybug Podcast gatsby website.
