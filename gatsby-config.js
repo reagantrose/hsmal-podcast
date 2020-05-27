@@ -105,5 +105,13 @@ module.exports = {
         cookieDomain: "example.com",
       },
     },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'WPGraphQL',
+        fieldName: 'wpgraphql',
+        url: 'https://www.redeemingproductivity.com/graphql',
+      }
+    },
   ],
 }
