@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
 import Player from "../components/Player"
-
 import SEO from '../components/seo'
 
 export default function Template({ data }) {
@@ -15,12 +14,14 @@ export default function Template({ data }) {
     length,
     path,
     audio,
+    enclosure,
   } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
 
   const episodeInfo = {
     title: title,
     description: description,
+    enclosure: enclosure,
   }
 
   return (
@@ -66,5 +67,20 @@ export const postQuery = graphql`
         audio
       }
     }
+    wpgraphql {
+      podcasts(where: {status: PUBLISH, tag: "HSAML"}) {
+        nodes {
+          date
+          title(format: RENDERED)
+          slug
+          enclosure
+          featuredImage {
+            uri
+            title(format: RENDERED)
+          }
+        }
+      }
+    }
   }
 `
+
