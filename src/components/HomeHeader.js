@@ -23,7 +23,7 @@ const Header = ({ latestEpisode }) => {
         <nav className="nav">
           <Link to="episodes">Episodes</Link>
           <Link to="about">About Us</Link>
-          <Link to="contact">Contact</Link>
+          {/* <Link to="contact">Contact</Link> */}
         </nav>
       </div>
       <Player

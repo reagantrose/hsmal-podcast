@@ -16,9 +16,9 @@ const Header = () => (
         <Link to="about" activeStyle={{ borderBottom: "2px solid #3a3a3a" }}>
           About Us
         </Link>
-        <Link to="contact" activeStyle={{ borderBottom: "2px solid #3a3a3a" }}>
+        {/* <Link to="contact" activeStyle={{ borderBottom: "2px solid #3a3a3a" }}>
           Contact
-        </Link>
+        </Link> */}
       </nav>
     </div>
   </header>
