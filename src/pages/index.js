@@ -13,9 +13,9 @@ const IndexPage = ({ data }) => {
       <SEO title="How Should a Man Live?" />
       <HomeHeader latestEpisode={data.allMarkdownRemark.edges[0]} />
       <main className="home-main">
-        {/* <h2>Recent Episodes</h2>
+        <h2>Recent Episodes</h2>
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[1]} />
-        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
+        {/* <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[3]} /> */}
         <Newsletter />
       </main>
