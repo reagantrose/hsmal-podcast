@@ -15,8 +15,8 @@ const IndexPage = ({ data }) => {
       <main className="home-main">
         <h2>Recent Episodes</h2>
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[1]} />
-        {/* <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
-        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[3]} /> */}
+        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
+        {/* <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[3]} /> */}
         <Newsletter />
       </main>
       <Footer />

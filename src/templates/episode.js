@@ -67,20 +67,5 @@ export const postQuery = graphql`
         audio
       }
     }
-    wpgraphql {
-      podcasts(where: {status: PUBLISH, tag: "HSAML"}) {
-        nodes {
-          date
-          title(format: RENDERED)
-          slug
-          enclosure
-          featuredImage {
-            uri
-            title(format: RENDERED)
-          }
-        }
-      }
-    }
   }
 `
-
