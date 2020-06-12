@@ -1,5 +1,5 @@
 ---
-title: "Biblical Foundations for Manhood"
+title: "Foundations for Biblical Manhood"
 formattedDate: "June 11, 2020"
 date: "2020-06-11"
 audio: "https://episodes.castos.com/redeemingproductivity/Ep.-3-Biblical-Foundations-for-Manhood.mp3"
