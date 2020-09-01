@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "9ba14f7425b7fda9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b566b346cb0d8dc",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2020-06-04-creation-mandate-meaning-of-life/index.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cfd8867fede92999",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bfec5b31e3b23e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19732ff6eee38c20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "874df151fd0f0d16",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e917cc8b30fd4cd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c73b56929f342f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "511d919c56ca5772",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "2020-06-04-creation-mandate-meaning-of-life/index.md",
+    "2020-05-24-how-did-we-get-here/index.md"
+  ]
+}
