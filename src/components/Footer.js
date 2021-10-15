@@ -54,7 +54,7 @@ const Footer = () => {
             <img src={podcast} alt="Stitcher" />
           </a> */}
           <a
-            href="https://www.redeemingproductivity.com/feed/podcast/how-should-a-man-live"
+            href="https://anchor.fm/s/6657810c/podcast/rss"
             target="_blank"
             rel="noopener noreferrer"
           >
