@@ -1,13 +1,10 @@
 export const reaganBio = {
   name: "Reagan Rose",
-  title: "Director of Digital Platforms, Grace to You",
-  location: "Los Angeles, CA",
+  title: "Founder of Redeeming Productivity",
+  location: "Detroit, MI",
   bio: [
-    `Reagan Rose serves as the Director of Digital Platforms for Grace to You, the Bible-teaching ministry of pastor John MacArthur.
-      Reagan is also husband to Kimberly and father to Watson Thomas (1).`,
-    `He is the creator of Redeeming Productivity, a blog, podcast, and YouTube channel dedicated to helping Christian bring more glory to God by 
-      becoming better stewards of their lives in accord with His Word.`,
-    `Reagan received his Master of Divinity from The Master's Seminary in 2017.`,
+    `Reagan Rose is the creator of Redeeming Productivity, a ministry dedicated to helping Christians glorify God through personal productivity. Reagan is married to Kimberly and father to Watson and Ruby.`,
+    `He received his Master of Divinity from The Master's Seminary in 2017.`,
   ],
   links: [
     {
